@@ -1,0 +1,2 @@
+Bài 6.1:
+-Khi người dùng bấm Cancel => Coi như người dùng chọn No
