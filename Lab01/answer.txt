@@ -1,5 +1,0 @@
-Bài 6.1:
--Khi người dùng bấm Cancel => Coi như người dùng chọn No
--Để chỉnh sửa lựa chọn của người dùng , ta có thể chỉnh sửa ở dòng lệnh thứ 9:
-+ (option == JOptionPane.YES_OPTION ? "Yes" : "No"));
-Trong đó , thay Yes và No thành lựa chọn mình muốn sửa
