@@ -1,6 +1,6 @@
 package hust.soict.hedspi.test.disc;
 
-import hust.soict.hedspi.aims.disc.DigitalVideoDisc;
+import hust.soict.hedspi.aims.media.DigitalVideoDisc;
 
 public class TestPassingParameter {
     public static void main(String[] args) {
@@ -11,7 +11,7 @@ public class TestPassingParameter {
         System.out.println("jungle DVD title: " + jungleDVD.getTitle());
         System.out.println("cinderella DVD title: " + cinderellaDVD.getTitle());
 
-        changeTitle(jungleDVD, cinderellaDVD.getTitle());  // Đổi tiêu đề của jungleDVD
+       // changeTitle(jungleDVD, cinderellaDVD.getTitle());  // Đổi tiêu đề của jungleDVD
 
         System.out.println("jungle DVD title: " + jungleDVD.getTitle());
     }
@@ -22,7 +22,7 @@ public class TestPassingParameter {
         dvd2 = temp;
     }
 
-    public static void changeTitle(DigitalVideoDisc dvd, String title) {
-        dvd.setTitle(title);
-    }
+   // public static void changeTitle(DigitalVideoDisc dvd, String title) {
+    //    dvd.setTitle(title);
+    //}
 }
