@@ -1,4 +1,6 @@
-package com.example.myapp;
+package hust.soict.hedspi.aims.cart;
+
+import hust.soict.hedspi.aims.disc.DigitalVideoDisc;
 
 public class Cart {
     private DigitalVideoDisc[] itemsOrdered;
